@@ -11,14 +11,14 @@ function Information() {
     <>
       <div>
         <div className="md:grid md:grid-cols-3 md:gap-6">
-          <div className="mt-5 md:mt-0 md:col-span-2">
+          <div className="mt-5 md:mt-0 md:col-span-6">
           
-            <div className="md:col-span-1 text-center">
+            <div className="md:col-span-6 text-center">
               <div className="px-4 sm:px-0">
                 <h3 className="text-lg font-medium leading-6 text-gray-900">
                   Profile
                 </h3>
-                <p className="mt-1 text-sm text-gray-600">
+                <p className="mt-1 text-sm text-gray-900">
                   This information will be displayed publicly so be careful what
                   you share.
                 </p>
@@ -28,7 +28,7 @@ function Information() {
             <form onSubmit={registerUser} action="#" method="POST">
               <div className="shadow sm:rounded-md sm:overflow-hidden">
                 <div className="px-4 py-5 bg-white space-y-6 sm:p-6">
-                  <div className="grid grid-cols-3 gap-6">
+                  <div className="grid grid-cols-4 gap-6">
                     <div className="col-span-3 sm:col-span-2">
                       <label
                         htmlFor="company-website"
@@ -142,7 +142,7 @@ function Information() {
                         <div className="flex text-sm text-gray-600">
                           <label
                             htmlFor="file-upload"
-                            className="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                            className="relative cursor-pointer bg-white rounded-md font-medium text-sky-500 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                           >
                             <span>Upload a file</span>
                             <input
@@ -165,7 +165,7 @@ function Information() {
                 <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
                   <button
                     type="submit"
-                    className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
                   >
                     Save
                   </button>
