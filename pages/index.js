@@ -5,7 +5,7 @@ import Personal from '../components/Personal';
 
 export default function Home() {
   return (
-    <div className="bg-zinc-200 content-center">
+    <div className="bg-slate-100 content-center">
       <Head>
         <title>Resume form</title>
       </Head>
