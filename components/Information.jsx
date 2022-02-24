@@ -26,26 +26,26 @@ function Information() {
             </div>
 
             <form onSubmit={registerUser} action="#" method="POST">
-              <div className="shadow sm:rounded-md sm:overflow-hidden">
-                <div className="px-4 py-5 bg-slate-900 space-y-6 sm:p-6">
+              <div className="shadow sm:rounded-md sm:overflow-hidden ">
+                <div className="px-4 py-5 bg-white space-y-6 sm:p-6 ">
                   <div className="grid grid-cols-4 gap-6">
                     <div className="col-span-3 sm:col-span-2">
                       <label
                         htmlFor="company-website"
-                        className="text-sm font-medium text-gray-200 flex p-2 "
+                        className="text-sm font-medium text-gray-700 flex p-2 "
                       >
                         Website {" "}
                         <CgWebsite color="white" className="flex text-lg" />
                       </label>
                       <div className="mt-1 flex rounded-md shadow-sm">
-                        <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-sky-500 bg-slate-700 text-gray-200 text-sm">
+                        <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-500 bg-white text-gray-500 text-sm">
                           http://
                         </span>
                         <input
                           type="text"
                           name="company-website"
                           id="company-website"
-                          className="focus:ring-sky-500 focus:border-sky-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-sky-500 bg-slate-700 text-gray-200"
+                          className="focus:ring-sky-500 focus:border-sky-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-500 bg-white text-gray-600 placeholder-gray-400"
                           placeholder="www.example.com"
                         />
                       </div>
@@ -54,20 +54,20 @@ function Information() {
                     <div className="col-span-3 sm:col-span-2">
                       <label
                         htmlFor="company-website"
-                        className="text-sm font-medium text-gray-200 flex p-2 "
+                        className="text-sm font-medium text-gray-700 flex p-2 "
                       >
                         LinkedIn{" "}
                         <AiFillLinkedin color="white" className="flex text-lg" />
                       </label>
                       <div className="mt-1 flex rounded-md shadow-sm">
-                        <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-sky-500 bg-slate-700 text-gray-200 text-sm">
+                        <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-500 bg-white text-gray-500 text-sm">
                           http://
                         </span>
                         <input
                           type="text"
                           name="company-website"
                           id="company-website"
-                          className="focus:ring-sky-600 focus:border-sky-600 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-sky-500 bg-slate-700 text-gray-200"
+                          className="focus:ring-sky-500 focus:border-sky-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-600 bg-white text-gray-600 placeholder-gray-400"
                           placeholder="www.example.com"
                         />
                       </div>
@@ -77,7 +77,7 @@ function Information() {
                   <div>
                     <label
                       htmlFor="about"
-                      className="block text-sm font-medium text-gray-200"
+                      className="block text-sm font-medium text-gray-700"
                     >
                       About
                     </label>
@@ -86,22 +86,22 @@ function Information() {
                         id="about"
                         name="about"
                         rows={3}
-                        className="shadow-sm focus:ring-sky-500 focus:border-sky-500 mt-1 block w-full sm:text-sm border border-sky-500 rounded-md bg-slate-700 text-gray-200"
+                        className="shadow-sm focus:ring-sky-500 focus:border-sky-500 mt-1 block w-full sm:text-sm border border-gray-600 rounded-md bg-white text-gray-600 placeholder-gray-400"
                         placeholder="Tell me about you"
                         defaultValue={""}
                       />
                     </div>
-                    <p className="mt-2 text-sm text-gray-200">
+                    <p className="mt-2 text-sm text-gray-500">
                       Brief description for your profile. URLs are hyperlinked.
                     </p>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-200">
+                    <label className="block text-sm font-medium text-gray-700">
                       Photo
                     </label>
                     <div className="mt-1 flex items-center">
-                      <span className="inline-block h-12 w-12 rounded-full overflow-hidden bg-gray-100">
+                      <span className="inline-block h-12 w-12 rounded-full overflow-hidden bg-gray-700">
                         <svg
                           className="h-full w-full text-gray-300"
                           fill="currentColor"
@@ -112,7 +112,7 @@ function Information() {
                       </span>
                       <button
                         type="button"
-                        className="ml-5 bg-sky-500 py-2 px-3 border border-sky-500 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-200 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+                        className="ml-5 bg-sky-500 py-2 px-3 border border-sky-500 rounded-md shadow-sm text-sm leading-4 font-medium text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
                       >
                         Change
                       </button>
@@ -120,7 +120,7 @@ function Information() {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-200">
+                    <label className="block text-sm font-medium text-gray-500">
                       Cover photo
                     </label>
                     <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-900 border-dashed rounded-md">
@@ -142,7 +142,7 @@ function Information() {
                         <div className="flex text-sm text-gray-600">
                           <label
                             htmlFor="file-upload"
-                            className="relative cursor-pointer bg-sky-500 rounded-md font-medium text-gray-200 hover:bg-sky-600 py-1 px-1"
+                            className="relative cursor-pointer bg-sky-500 rounded-md font-medium text-white hover:bg-sky-600 py-1 px-1"
                           >
                             <span>Upload a file</span>
                             <input
@@ -152,9 +152,9 @@ function Information() {
                               className="sr-only"
                             />
                           </label>
-                          <p className="pl-1 text-gray-200">or drag and drop</p>
+                          <p className="pl-1 text-gray-500">or drag and drop</p>
                         </div>
-                        <p className="text-xs text-gray-200">
+                        <p className="text-xs text-gray-500">
                           PNG, JPG, GIF up to 10MB
                         </p>
                       </div>
@@ -162,7 +162,7 @@ function Information() {
                   </div>
                 </div>
 
-                <div className="px-4 py-3 bg-slate-900 text-right sm:px-6">
+                <div className="px-4 py-3 bg-white text-right sm:px-6">
                   <button
                     type="submit"
                     className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
@@ -174,6 +174,11 @@ function Information() {
               </div>
             </form>
           </div>
+        </div>
+      </div>
+      <div className="hidden sm:block" aria-hidden="true">
+        <div className="py-5">
+          <div className="border-t border-gray-200" />
         </div>
       </div>
     </>
