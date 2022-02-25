@@ -41,7 +41,7 @@ function Personal() {
                             htmlFor="first-name"
                             className="block text-sm font-medium text-gray-700"
                           >
-                            First name
+                            First Name
                           </label>
                           <input
                             type="text"
@@ -57,7 +57,7 @@ function Personal() {
                             htmlFor="last-name"
                             className="block text-sm font-medium text-gray-700"
                           >
-                            Last name
+                            Last Name
                           </label>
                           <input
                             type="text"
@@ -73,7 +73,7 @@ function Personal() {
                             htmlFor="email-address"
                             className="block text-sm font-medium text-gray-700"
                           >
-                            Email address
+                            Email Address
                           </label>
                           <input
                             type="text"
@@ -132,7 +132,7 @@ function Personal() {
                             htmlFor="street-address"
                             className="block text-sm font-medium text-gray-700"
                           >
-                            Street address
+                            Street Address
                           </label>
                           <input
                             type="text"
