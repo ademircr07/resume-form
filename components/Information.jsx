@@ -45,7 +45,7 @@ function Information() {
                           type="text"
                           name="company-website"
                           id="company-website"
-                          className="focus:ring-sky-500 focus:border-sky-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-500 bg-white text-gray-600 placeholder-gray-400"
+                          className="focus:ring-slate-700 focus:border-slate-700 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-500 bg-white text-gray-600 placeholder-gray-400"
                           placeholder="www.example.com"
                         />
                       </div>
@@ -67,7 +67,7 @@ function Information() {
                           type="text"
                           name="company-website"
                           id="company-website"
-                          className="focus:ring-sky-500 focus:border-sky-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-600 bg-white text-gray-600 placeholder-gray-400"
+                          className="focus:ring-slate-700 focus:border-slate-700 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-600 bg-white text-gray-600 placeholder-gray-400"
                           placeholder="www.example.com"
                         />
                       </div>
@@ -86,7 +86,7 @@ function Information() {
                         id="about"
                         name="about"
                         rows={3}
-                        className="shadow-sm focus:ring-sky-500 focus:border-sky-500 mt-1 block w-full sm:text-sm border border-gray-600 rounded-md bg-white text-gray-600 placeholder-gray-400"
+                        className="shadow-sm focus:ring-slate-700 focus:border-slate-700 mt-1 block w-full sm:text-sm border border-gray-600 rounded-md bg-white text-gray-600 placeholder-gray-400"
                         placeholder="Tell me about you"
                         defaultValue={""}
                       />
@@ -112,7 +112,7 @@ function Information() {
                       </span>
                       <button
                         type="button"
-                        className="ml-5 bg-sky-500 py-2 px-3 border border-sky-500 rounded-md shadow-sm text-sm leading-4 font-medium text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+                        className="ml-5 bg-slate-900 py-2 px-3 border border-slate-800 rounded-md shadow-sm text-sm leading-4 font-medium text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-slate-900"
                       >
                         Change
                       </button>
@@ -142,7 +142,7 @@ function Information() {
                         <div className="flex text-sm text-gray-600">
                           <label
                             htmlFor="file-upload"
-                            className="relative cursor-pointer bg-sky-500 rounded-md font-medium text-white hover:bg-sky-600 py-1 px-1"
+                            className="relative cursor-pointer bg-slate-900 rounded-md font-medium text-white hover:bg-slate-800 py-1 px-1"
                           >
                             <span>Upload a file</span>
                             <input
@@ -165,7 +165,7 @@ function Information() {
                 <div className="px-4 py-3 bg-white text-right sm:px-6">
                   <button
                     type="submit"
-                    className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+                    className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-slate-900"
                   >
                     Save
                   </button>

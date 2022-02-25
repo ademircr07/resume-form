@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Personal />
         <Information />
-       
+       <SkillsSect />
         
       </main>
 

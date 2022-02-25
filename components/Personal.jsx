@@ -33,7 +33,7 @@ function Personal() {
                 </div>
   
                 <form onSubmit={registerUser} action="#" method="POST">
-                  <div className="shadow overflow-hidden sm:rounded-md">
+                  <div className="shadow overflow-hidden sm:rounded-md ">
                     <div className="px-4 py-5 bg-white sm:p-6">
                       <div className="grid grid-cols-6 gap-6">
                         <div className="col-span-6 sm:col-span-3">
@@ -48,7 +48,7 @@ function Personal() {
                             name="first-name"
                             id="first-name"
                             autoComplete="given-name"
-                            className="mt-1 focus:ring-sky-500 focus:border-sky-500 block w-full shadow-sm sm:text-sm border-gray-600 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-600 rounded-md bg-white" required
                           />
                         </div>
   
@@ -64,7 +64,7 @@ function Personal() {
                             name="last-name"
                             id="last-name"
                             autoComplete="family-name"
-                            className="mt-1 focus:ring-sky-500 focus:border-sky-500 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-600 rounded-md bg-white" required
                           />
                         </div>
   
@@ -80,7 +80,7 @@ function Personal() {
                             name="email-address"
                             id="email-address"
                             autoComplete="email"
-                            className="mt-1 focus:ring-sky-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-600 rounded-md bg-white" required
                           />
                         </div>
   
@@ -96,7 +96,7 @@ function Personal() {
                             name="email-address"
                             id="email-address"
                             autoComplete="email"
-                            className="mt-1 focus:ring-sky-500 focus:border-sky-500 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-600 rounded-md bg-white" required
                           />
                         </div>
   
@@ -117,13 +117,13 @@ function Personal() {
                             <option>Canada</option>
                             <option>Mexico</option>
                           </select> */}
-                          <div className=' '>
+                          <div className='border-gray-500 bg-white rounded-md shadow-sm focus:outline-none focus:ring-slate-700 focus:border-slate-700 sm:text-sm text-gray-700'>
                               <ReactFlagsSelect
                               selected={selected}
                               onSelect={code => setSelected(code)}
                               searchable={true}
                               id="flags-select"
-                              />
+                              className="border-gray-500 bg-white focus:ring-slate-700 focus:border-slate-700 sm:text-sm text-gray-700"/>
                           </div>
                         </div>
   
@@ -139,7 +139,7 @@ function Personal() {
                             name="street-address"
                             id="street-address"
                             autoComplete="street-address"
-                            className="mt-1 focus:ring-sky-500 focus:border-sky-500 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white" required
                           />
                         </div>
   
@@ -155,7 +155,7 @@ function Personal() {
                             name="city"
                             id="city"
                             autoComplete="address-level2"
-                            className="mt-1 focus:ring-sky-500 focus:border-sky-500 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-600 rounded-md bg-white" required
                           />
                         </div>
   
@@ -171,7 +171,7 @@ function Personal() {
                             name="region"
                             id="region"
                             autoComplete="address-level1"
-                            className="mt-1 focus:ring-sky-500 focus:border-sky-500 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white" required
                           />
                         </div>
   
@@ -187,7 +187,7 @@ function Personal() {
                             name="postal-code"
                             id="postal-code"
                             autoComplete="postal-code"
-                            className="mt-1 focus:ring-sky-500 focus:border-sky-500 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white"
+                            className="mt-1 focus:ring-slate-700 focus:border-slate-700 block w-full shadow-sm sm:text-sm border-gray-500 rounded-md bg-white" required
                           />
                         </div>
                       </div>
@@ -195,7 +195,7 @@ function Personal() {
                     <div className="px-4 py-3 bg-white text-right sm:px-6">
                       <button
                         type="submit"
-                        className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-slate-800 hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-slate-900 mb-2"
                       >
                         Save
                       </button>
